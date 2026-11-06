@@ -34,7 +34,7 @@ h2{font-size:clamp(1.95rem,4vw,3rem)}
 .note{color:var(--mute);font-size:.78rem;max-width:60ch}
 .center{text-align:center}
 .about{display:grid;grid-template-columns:1fr 1.4fr;gap:2rem 4rem;align-items:start;border-top:1px solid var(--line)}.about p{max-width:55ch;margin:0 0 1rem}.about h3{font-weight:700}
-.iiii{font:300 2.4rem/1 var(--serif);letter-spacing:.4em;margin:0}
+.about-mark{display:block;width:min(100%,34rem);height:auto;margin:1.75rem 0 0}
 .site-footer{padding:clamp(3rem,6vw,4.5rem) clamp(1rem,4vw,3rem) 1.5rem;border-top:1px solid var(--line)}
 .fcols{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:3rem;max-width:72rem;margin:0 auto;text-align:center}
 .fh{font:400 1.38rem var(--serif);margin:0 0 1rem}
