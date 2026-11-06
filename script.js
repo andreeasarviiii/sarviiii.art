@@ -12,6 +12,7 @@ document.querySelectorAll('.card button').forEach(btn=>btn.addEventListener('cli
  d.querySelector('img').src=c.dataset.full;d.querySelector('img').alt=c.querySelector('img').alt;
  d.querySelector('h3').textContent=c.dataset.title;d.querySelector('.meta').textContent=c.dataset.meta;
  const desc=d.querySelector('.desc');if(desc){desc.textContent=c.dataset.desc||'';desc.hidden=!c.dataset.desc}
+ const mail=d.querySelector('a.inquire');if(mail)mail.href='mailto:andreea.sarvi@gmail.com?subject='+encodeURIComponent('I love '+c.dataset.title);
  d.showModal();d.querySelector('.close').focus()}));
 d.querySelector('.close').addEventListener('click',()=>d.close());
 d.addEventListener('click',e=>{if(e.target===d)d.close()});d.addEventListener('close',()=>last&&last.focus());
