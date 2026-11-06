@@ -10,7 +10,9 @@ const d=document.getElementById('artwork');
 if(d){let last;
 document.querySelectorAll('.card button').forEach(btn=>btn.addEventListener('click',()=>{last=btn;const c=btn.closest('.card');
  d.querySelector('img').src=c.dataset.full;d.querySelector('img').alt=c.querySelector('img').alt;
- d.querySelector('h3').textContent=c.dataset.title;d.querySelector('.meta').textContent=c.dataset.meta;d.showModal();d.querySelector('.close').focus()}));
+ d.querySelector('h3').textContent=c.dataset.title;d.querySelector('.meta').textContent=c.dataset.meta;
+ const desc=d.querySelector('.desc');if(desc){desc.textContent=c.dataset.desc||'';desc.hidden=!c.dataset.desc}
+ d.showModal();d.querySelector('.close').focus()}));
 d.querySelector('.close').addEventListener('click',()=>d.close());
 d.addEventListener('click',e=>{if(e.target===d)d.close()});d.addEventListener('close',()=>last&&last.focus());
 d.addEventListener('keydown',e=>{if(e.key!=='Tab')return;const f=[...d.querySelectorAll('button,a[href],[tabindex]:not([tabindex="-1"])')];const a=f[0],z=f[f.length-1];
