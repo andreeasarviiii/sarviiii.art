@@ -38,6 +38,17 @@ h2{font-size:clamp(1.95rem,4vw,3rem)}
 .center{text-align:center}
 .about{display:grid;grid-template-columns:1fr 1.4fr;gap:2rem 4rem;align-items:start;border-top:1px solid var(--line)}.about p{max-width:55ch;margin:0 0 1rem}.about h3{font-weight:700}
 .about-mark{display:block;width:min(100%,320px);height:auto;margin:1.75rem 0 0;border:1px solid #000}
+.contact-grid{display:grid;grid-template-columns:1.35fr .85fr;gap:clamp(2rem,5vw,4.5rem);align-items:start;max-width:72rem;margin:0 auto}
+.contact-lead{max-width:46ch;margin:0 0 2rem}
+.contact-form{display:grid;gap:1.15rem}
+.contact-form label{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.contact-form .opt{letter-spacing:0;text-transform:none}
+.contact-form input,.contact-form textarea{width:100%;font:300 1.05rem var(--serif);color:var(--ink);background:transparent;border:0;border-bottom:1px solid var(--line);padding:.55rem 0;border-radius:0}
+.contact-form textarea{min-height:8rem;resize:vertical}
+.contact-form .hint{margin:0;max-width:42ch;font-size:.75rem;line-height:1.5;color:var(--mute)}
+.studio-panel{border:1px solid var(--line);padding:clamp(1.5rem,3vw,2.4rem)}
+.studio-panel h2{margin:.4rem 0 1.2rem}
+.studio-panel a{color:var(--ink)}
 .site-footer{padding:clamp(3rem,6vw,4.5rem) clamp(1rem,4vw,3rem) 1.5rem;border-top:1px solid var(--line)}
 .fcols{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:3rem;max-width:72rem;margin:0 auto;text-align:center}
 .fh{font:400 1.38rem var(--serif);margin:0 0 1rem}
@@ -57,5 +68,5 @@ dialog{border:0;padding:0;max-width:min(1100px,94vw);width:100%;background:#fff}
  header{grid-template-columns:1fr auto 1fr}nav{justify-self:start}.panel .frame{height:min(46vh,420px)}.logo{grid-column:2}.logo img{height:28px}.menu-btn{display:block;grid-column:1;grid-row:1}.ig{grid-column:3}
  nav{grid-column:1;grid-row:1}nav ul{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:#fff;border-bottom:1px solid var(--line)}nav ul.open{display:flex}nav li a{display:block;padding:.9rem 1.5rem;border:0}
  .hero img{height:auto;aspect-ratio:2/1}.hero .ph{position:static;text-align:right;padding:.3rem 1rem;background:none}
- .pair,.about,.dlg,.fcols{grid-template-columns:1fr}}
+ .pair,.about,.dlg,.fcols,.contact-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}

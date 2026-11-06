@@ -21,3 +21,13 @@ d.addEventListener('keydown',e=>{if(e.key!=='Tab')return;const f=[...d.querySele
  if(e.shiftKey&&document.activeElement===a){e.preventDefault();z.focus()}else if(!e.shiftKey&&document.activeElement===z){e.preventDefault();a.focus()}});
 }
 document.getElementById('y').textContent=new Date().getFullYear();
+// Contact form: open a draft in the visitor's email app. Nothing is sent from the site.
+const inquiry=document.getElementById('inquiry');
+if(inquiry)inquiry.addEventListener('submit',e=>{
+ e.preventDefault();
+ const name=inquiry.name.value.trim(),email=inquiry.email.value.trim(),phone=inquiry.phone.value.trim(),message=inquiry.message.value.trim();
+ const lines=['Name: '+name,'Email: '+email];
+ if(phone)lines.push('Phone: '+phone);
+ lines.push('','Message:',message);
+ location.href='mailto:andreea.sarvi@gmail.com?subject='+encodeURIComponent('Artwork inquiry')+'&body='+encodeURIComponent(lines.join('\n'));
+});
