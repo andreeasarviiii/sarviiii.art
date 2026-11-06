@@ -29,6 +29,7 @@ h2{font-size:clamp(2rem,4.5vw,3.2rem)}
 .card button{all:unset;cursor:pointer;display:block;width:100%}.card button:focus-visible{outline:1px solid var(--ink);outline-offset:6px}
 .card .frame{overflow:hidden}.card img{width:100%;height:auto;aspect-ratio:3/2;max-height:460px;object-fit:cover;object-position:center;transition:transform .8s ease}.card button:hover img{transform:scale(1.03)}
 .card h3{font-size:1.35rem;margin:1rem 0 .1rem}.card p{margin:0;color:var(--mute);font-size:.85rem}
+.card .stem,.dlg .meta{overflow-wrap:anywhere}.card .stem{font-size:.68rem;line-height:1.45;margin:.25rem 0 0}
 .note{color:var(--mute);font-size:.85rem;max-width:60ch}
 .center{text-align:center}
 .about{display:grid;grid-template-columns:1fr 1.4fr;gap:2rem 4rem;align-items:start;border-top:1px solid var(--line)}.about p{max-width:55ch;margin:0 0 1rem}
