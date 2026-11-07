@@ -14,6 +14,7 @@ section{padding:clamp(3.5rem,8vw,6.5rem) clamp(1rem,4vw,3rem)}section[id]{scroll
 h1,h2,h3{font-family:var(--serif);font-weight:300;line-height:1.1;margin:0 0 1.2rem}
 h2{font-size:clamp(1.95rem,4vw,3rem)}
 .eyebrow{font-size:.7rem;letter-spacing:.25em;text-transform:uppercase;color:var(--mute)}
+h2.eyebrow{font-size:.7rem;font-weight:400;line-height:1.4;letter-spacing:.25em;text-transform:uppercase;color:var(--mute);margin:0}
 .btn{display:inline-block;padding:.75rem 1.6rem;background:var(--ink);color:#fff;border:1px solid var(--ink);text-decoration:none;font:400 .7rem var(--sans);letter-spacing:.22em;text-transform:uppercase;transition:.3s;cursor:pointer}.btn:hover{background:#fff;color:var(--ink)}
 .btn.line{background:#fff;color:var(--ink)}.btn.line:hover{background:var(--ink);color:#fff}
 .ph{display:block;font-size:.62rem;letter-spacing:.15em;text-transform:uppercase;color:var(--mute);margin-top:.5rem}
