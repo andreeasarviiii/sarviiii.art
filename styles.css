@@ -30,6 +30,7 @@ h2{font-size:clamp(1.95rem,4vw,3rem)}
 .panel h2{font:400 .9rem var(--sans);letter-spacing:.28em;text-transform:uppercase;margin:1.4rem 0 .2rem}.panel p{margin:0;font:italic 300 1.12rem var(--serif);color:var(--mute)}
 .inquiry{text-align:center;max-width:46rem;margin:0 auto}.inquiry p{font:300 1.25rem/1.6 var(--serif);margin:0 0 2rem}
 #contact{padding-top:0}#contact::before{content:"";display:block;height:1px;background:var(--line);margin:0 0 clamp(1.6rem,3vw,2.6rem)}
+#contact .eyebrow{margin-bottom:.7rem}
 .grid{list-style:none;padding:0;margin:2rem 0 0;display:grid;grid-template-columns:1fr;gap:3rem 2rem}@media(min-width:700px){.grid{grid-template-columns:repeat(2,1fr)}}@media(min-width:1101px){.grid{grid-template-columns:repeat(3,1fr);gap:4rem 3rem}}
 .card{text-align:center}.card button{all:unset;cursor:pointer;display:block;width:100%;text-align:center}.card button:focus-visible{outline:1px solid var(--ink);outline-offset:6px}
 .card .frame{position:relative;display:flex;align-items:center;justify-content:center;background:#fff}.card img{width:auto;max-width:100%;height:auto;max-height:min(70vh,480px);object-fit:contain;object-position:center;background:#fff}
