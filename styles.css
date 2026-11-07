@@ -60,7 +60,7 @@ h2.eyebrow{font-size:.7rem;font-weight:400;line-height:1.4;letter-spacing:.25em;
 .site-footer{padding:clamp(3rem,6vw,4.5rem) clamp(1rem,4vw,3rem) 1.5rem;border-top:1px solid var(--line)}
 .fcols{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:3rem;max-width:72rem;margin:0 auto;text-align:center}
 .fh{font:400 1.38rem var(--serif);margin:0 0 1rem}
-.site-footer ul{list-style:none;margin:0;padding:0}.site-footer li a{font:300 1.02rem var(--serif);text-decoration:none;border-bottom:1px solid transparent}.site-footer li a:hover{border-color:var(--ink)}
+.site-footer ul{list-style:none;margin:0;padding:0}.site-footer li a,.site-footer li.loc{font:300 1.02rem var(--serif)}.site-footer li a{text-decoration:none;border-bottom:1px solid transparent}.site-footer li a:hover{border-color:var(--ink)}
 .fform{display:grid;gap:.7rem;max-width:22rem;margin:0 auto}
 .fform input{font:300 .95rem var(--serif);padding:.75rem .9rem;border:1px solid #cfcfcf;background:#fafafa;color:var(--mute)}
 .btn.full{width:100%}.btn[disabled]{opacity:.45;cursor:not-allowed}.btn[disabled]:hover{background:var(--ink);color:#fff}
